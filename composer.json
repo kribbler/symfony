@@ -26,11 +26,13 @@
         "symfony/yaml": "3.4.*"
     },
     "require-dev": {
+        "phpunit/phpunit": "^7",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
         "symfony/test-pack": "*",
-        "symfony/web-server-bundle": "3.4.*"
+        "symfony/web-server-bundle": "3.4.*",
+        "mockery/mockery": "dev-master"
     },
     "config": {
         "preferred-install": {
