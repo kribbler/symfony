@@ -1,0 +1,19 @@
+
+api_info:
+    path: /api
+    controller: App\Engine\ApiBundle\Controller\ApiController::indexAction
+api_read:
+    path: /api/author/{name}
+    controller: App\Engine\ApiBundle\Controller\ApiController::authorAction
+
+api_categories:
+    path: /api/categories
+    controller: App\Engine\ApiBundle\Controller\ApiController::listCategoriesAction
+
+api_category:
+    path: /api/category/{name}
+    controller: App\Engine\ApiBundle\Controller\ApiController::categoryAction
+
+api_author_category:
+    path: /api/{author_name}/{category_name}
+    controller: App\Engine\ApiBundle\Controller\ApiController::authorCategoryAction

@@ -1,3 +1,7 @@
 app_first_bundle:
     resource: '@EngineFirstBundle/Resources/config/'
     type:     directory
+
+app_api_bundle:
+    resource: '@EngineApiBundle/Resources/config/'
+    type: directory
