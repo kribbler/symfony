@@ -15,4 +15,5 @@ return [
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
     App\Engine\ApiBundle\EngineApiBundle::class => ['all' => true],
+    App\Engine\PageBundle\EnginePageBundle::class => ['all' => true],
 ];

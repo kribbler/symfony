@@ -1,0 +1,4 @@
+
+page_index:
+    path: /
+    controller: App\Engine\PageBundle\Controller\PageController::indexAction
